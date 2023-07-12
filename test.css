@@ -1,1 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.test{
+    color: aqua;
+    /* cursor: pointer; */
+    cursor: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTOmIZrRD1FKewBmXO5s18dyQvlAjA3vRHYVOtro4gkg&s"), auto;
+}
+.container{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 1px solid gray;
+}
+.box{
+    padding: 20px;
+    background-color: red;
+    width: 120px;
+    height: 110px;
+    
+}
+.box2{
+    background-color: green;
+
+}
+.box3{
+    background-color: blue;
+}
 
